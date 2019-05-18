@@ -13,8 +13,8 @@ namespace hw1.Controllers
         {
             var homeViewModel = new HomeViewModel
             {
-                PhoneCount = 15,
-                UserCount = 20,
+                PhoneCount = 10,
+                UserCount = 15
                 LastAccessDate = DateTime.Now
             };
 
