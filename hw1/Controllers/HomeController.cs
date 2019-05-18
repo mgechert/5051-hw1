@@ -18,7 +18,7 @@ namespace hw1.Controllers
                 LastAccessDate = DateTime.Now
             };
 
-            return View();
+            return View(homeViewModel);
         }
 
         public ActionResult FAQ()
